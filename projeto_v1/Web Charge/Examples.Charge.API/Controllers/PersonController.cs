@@ -2,9 +2,7 @@
 using Examples.Charge.Application.Interfaces;
 using Examples.Charge.Application.Messages.Request;
 using Examples.Charge.Application.Messages.Response;
-using Examples.Charge.Domain.Aggregates.PersonAggregate;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Threading.Tasks;
 
 namespace Examples.Charge.API.Controllers

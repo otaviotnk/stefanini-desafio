@@ -9,9 +9,9 @@ namespace Examples.Charge.Application.Interfaces
     public interface IPersonFacade
     {
         Task<PersonListResponse> FindAllAsync();
-        Task<Person> GetById(int id);
-        Task<Person> Create(PersonRequest person);
-        Task<Person> Update(PersonRequest person);
-        Task Delete(int id);
+        Task<PersonResponse> GetById(int id);
+        Task<PersonResponse> Create(PersonRequest person);
+        Task<PersonResponse> Update(PersonRequest person);
+        Task<PersonResponse> Delete(int id);
     }
 }
